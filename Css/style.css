@@ -1,15 +1,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 body{
-    font-family: 'Inter';
+    font-family: 'Inter'sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+
 }
 header{
+    width: 100%;
     padding: 26px 115px;
     /* margin: 0 auto; */
     position: fixed;
     width: 100%;
     background-color: #fff;
     z-index: 9999;
+    
    
 }
 
@@ -50,9 +55,11 @@ main{
     background-image:url("../Images/banner_bg\ 1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center ;
     position: relative;
+    padding-top: 120px;
 }
-.main_h1{
+h1{
     font-size: 96px;
     font-weight: 700;
     letter-spacing: 7px;
@@ -135,6 +142,7 @@ h5{
 h6{
     color: #626262;
     font-size: 18px;
+    margin-bottom: 10px;
 }
 span,.star{
     color: 18px;
@@ -147,6 +155,7 @@ p{
 .price{
     color: #FF5403;
     size: 18px;
+    
 }
 .one{
     margin-left: 0px;
@@ -187,11 +196,27 @@ h3{
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 10px;
+    display: block;
     
+}
+.phone,.email{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    display: inline;
+    /* ვეერაფერი მოვუხერხე, მაინც შუიდან იწყებს :// */
+
 }
 .footer_li2{
     color: #FF5403;
     margin-bottom: 8px;
+    
+}
+.footer_div2 .footer_icons {
+    margin-left: 0; 
+    margin-right: 15px; 
+    vertical-align: middle;
 }
 .copyright{
     height: 65px;
@@ -202,4 +227,133 @@ h3{
 .copyright_para{
     font-size: 16px;
     color: #C4C4C4;
+}
+ .about_us{
+    background-image: url(/Images/banner_bg\ 1.jpg);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: #041562;
+    padding-top: 120px;
+    background-position: top ;
+}
+   
+article{
+    height: 431px;
+    /* width: 1312px; */
+    margin: 160px auto;
+    padding-left: 111px;
+}
+.article_logo{
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.article_div{
+    display: inline-block;
+    width: 456px;
+    height: 370px;
+    margin-left: 50px;
+    vertical-align: middle;
+    
+}
+.article_span{
+    color: #FF5403;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+
+.article_title{
+    display: inline-block;
+    font-size: 32px;
+    color: #041562;
+    margin: 25px 0;
+}
+.bali{
+    background-image: url(/Images/bali2.jpg);
+    height: 879px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    
+    /* width: 100%; */
+    
+}
+.bali_indonesia{
+    background-color: #fff;
+    padding: 59px;
+    width: 641px;
+    height: 500px;
+    position: absolute;
+    top: 118px;
+    bottom:145px;
+    right: 443px;
+    left: 546px;
+}
+.article_btn{
+    border-radius: 50%;
+    width: 86px;
+    height: 86px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+}
+
+.bali_span{
+    color: #FF5403;
+    
+}
+.bali_title{
+color: #041562;
+font-weight: 600;
+font-size: 32px;
+margin: 15px 0 25px 0;
+}
+.bali_para{
+    color: #626262;
+}
+.date,.cost,.organizer{
+    display: block;
+    margin: 30px 0;
+}
+
+.rating {
+    display: inline; 
+    font-size: 20px; 
+    vertical-align: middle;
+}
+
+.Star {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.Plan_Details{
+    display: block;
+    width: 198px;
+    height: 52px;
+    background-color: #FF5403;
+    margin-top: 52px;
+}
+.btn-text{
+    color: #fff;
+}
+.article_btn2{
+    border-radius: 50%;
+    width: 86px;
+    height: 86px;
+    color: #df3131;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    left: 836px;
+    transform: translate(-50%);
+    transform: rotate(180deg);
+
+}
+.services_title{
+    margin: 40px 0 10px 0;
 }
